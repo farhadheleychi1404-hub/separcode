@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src https://separ-form.YOUR-SUBDOMAIN.workers.dev; base-uri 'none'; form-action 'none'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="no-referrer">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>سپرکد | برنامه‌نویس و توسعه‌دهنده امنیت‌محور | سایت، اپ موبایل، نرم‌افزار ویندوز</title>
+<meta name="description" content="طراحی و ساخت سایت و قالب اختصاصی، فروشگاه اینترنتی، اپ موبایل، نرم‌افزار ویندوز و ابزارهای امنیتی؛ با کد تمیز و امنیت از روز اول.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg class="sprite" width="0" height="0" aria-hidden="true">
+  <symbol id="shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6l8-3z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></symbol>
+</svg>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#top" aria-label="صفحه اصلی"><svg class="lg"><use href="#shield"/></svg><span>سپر<span class="ac">کد</span></span></a>
+    <ul>
+      <li><a href="#services">خدمات</a></li>
+      <li><a href="#security">امنیت</a></li>
+      <li><a href="#process">روند کار</a></li>
+      <li><a href="#faq">سؤالات</a></li>
+    </ul>
+    <div class="tools">
+      <button class="icon-btn" id="theme" aria-label="تغییر پوسته روشن و تیره">◐</button>
+      <a class="btn btn-main" href="#contact">ثبت سفارش</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<div class="hero"><canvas id="mx" aria-hidden="true"></canvas><div class="wrap hero-grid">
+  <div>
+    <span class="badge"><i></i>پذیرش سفارش جدید باز است</span>
+    <h1>نرم‌افزاری می‌سازم که کارتان را جلو ببرد و از آن محافظت کند</h1>
+    <p class="lead">طراحی و برنامه‌نویسی سایت و قالب اختصاصی، فروشگاه اینترنتی، اپ موبایل، نرم‌افزار ویندوز و ابزارهای امنیتی. هر پروژه از اولین خط کد با رمزنگاری، اعتبارسنجی ورودی و کنترل دسترسی ساخته می‌شود.</p>
+    <div class="cta">
+      <a class="btn btn-main" href="#contact">دریافت مشاوره و قیمت رایگان</a>
+      <a class="btn btn-ghost" href="#services">دیدن خدمات</a>
+    </div>
+    <div class="trust">
+      <span><svg><use href="#shield"/></svg>کد اختصاصی، بدون قالب آماده</span>
+      <span><svg><use href="#shield"/></svg>تحویل کامل سورس</span>
+      <span><svg><use href="#shield"/></svg>تعهد به محرمانگی (NDA)</span>
+    </div>
+  </div>
+  <div class="vis"><svg class="radar" viewBox="0 0 200 200" aria-hidden="true"><defs><linearGradient id="sw" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22e5ff" stop-opacity="0"/><stop offset="1" stop-color="#22e5ff" stop-opacity=".6"/></linearGradient></defs><g fill="none" stroke="#22e5ff" stroke-opacity=".4"><circle cx="100" cy="100" r="95"/><circle cx="100" cy="100" r="70" stroke-dasharray="3 6"/><circle cx="100" cy="100" r="45"/><path d="M100 5v190M5 100h190" stroke-opacity=".2"/></g><g class="sweep"><path d="M100 100L195 100A95 95 0 0 0 183 62Z" fill="url(#sw)"/></g><circle class="blip" cx="152" cy="58" r="3" fill="#ffd166"/><circle class="blip b2" cx="48" cy="140" r="3" fill="#ffd166"/><path d="M100 68l30 11v22c0 17-12 30-30 34-18-4-30-17-30-34V79z" fill="#050912" stroke="#39ff9c" stroke-width="2.5"/><path d="M86 100l10 10 18-20" stroke="#39ff9c" stroke-width="3" fill="none" stroke-linecap="round"/></svg><div class="term" role="img" aria-label="نمونه گزارش اسکن امنیتی یک پروژه">
+    <div class="term-bar"><b></b><b></b><b></b><em>security-check.log</em></div>
+<pre><span class="dim">$</span> scan --project ./your-app
+<span class="ok">✔</span> TLS 1.3 / HTTPS enforced
+<span class="ok">✔</span> Passwords hashed (Argon2id)
+<span class="ok">✔</span> SQL injection  : 0 findings
+<span class="ok">✔</span> XSS / CSRF     : protected
+<span class="ok">✔</span> Rate limiting  : enabled
+<span class="ok">✔</span> Secrets in code: none
+<span class="am">!</span> 2FA for admin : <span class="am">recommended</span>
+<span class="dim">──────────────────────────</span>
+status: <span class="ok">SECURE</span> <span class="cur"></span></pre>
+  </div></div>
+</div></div>
+
+<section id="services"><div class="wrap">
+  <div class="sec-head"><h2>خدمات توسعه سفارشی</h2><p>از ایده تا انتشار، همه‌چیز را یک نفر مسئول است؛ با هماهنگی کامل و پاسخگویی مستقیم.</p></div>
+  <div class="svc">
+    <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 21h8M12 18v3"/></svg><h3>سایت شخصی و سازمانی</h3><div><p>سایت معرفی، رزومه، شرکتی و پنل مدیریت محتوا با طراحی اختصاصی، سریع و سازگار با موبایل و سئو.</p><small>مناسب: پزشکان، وکلا، شرکت‌ها، فریلنسرها</small></div></div>
+    <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6h15l-1.5 9h-12z"/><path d="M6 6L5 3H2"/><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/></svg><h3>فروشگاه اینترنتی</h3><div><p>فروشگاه اختصاصی با درگاه پرداخت امن، مدیریت موجودی، سفارش‌ها، تخفیف و گزارش فروش.</p><small>پرداخت از طریق درگاه‌های معتبر؛ اطلاعات کارت هرگز روی سرور شما ذخیره نمی‌شود</small></div></div>
+    <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="1.5"/><rect x="13" y="3" width="8" height="5" rx="1.5"/><rect x="13" y="10" width="8" height="11" rx="1.5"/><rect x="3" y="13" width="8" height="8" rx="1.5"/></svg><h3>قالب اختصاصی</h3><div><p>قالب منحصربه‌فرد برای وردپرس و سایت‌های سفارشی، با کد تمیز و سبک؛ بدون افزونه‌های اضافی که سایت را کند یا ناامن می‌کنند.</p></div></div>
+    <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/></svg><h3>اپلیکیشن موبایل</h3><div><p>اپ اندروید و iOS با تجربه کاربری روان، اعلان، ورود امن و اتصال به سرور اختصاصی.</p><small>ذخیره امن اطلاعات روی دستگاه و ارتباط رمزنگاری‌شده</small></div></div>
+    <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5l8-1.5V11H3zM13 3l8-1.5V11h-8zM3 13h8v7.5L3 19zM13 13h8v9l-8-1.5z" transform="scale(.95) translate(.6 .5)"/></svg><h3>نرم‌افزار ویندوز</h3><div><p>نرم‌افزار دسکتاپ برای حسابداری، انبار، اتوماسیون اداری و ابزارهای تخصصی؛ با نصب‌کننده حرفه‌ای و به‌روزرسانی ساده.</p></div></div>
+    <div class="row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 018 0v3M12 15v2"/></svg><h3>ابزار و برنامه امنیتی</h3><div><p>رمزنگاری فایل، مدیریت رمز عبور، ورود دومرحله‌ای، ثبت رخداد و تست نفوذ پایه برای سامانه‌های موجود.</p></div></div>
+  </div>
+</div></section>
+
+<section id="security" class="sec"><div class="wrap">
+  <div class="sec-head"><h2>امنیت، بخش جدانشدنی کار است</h2><p>امنیت چیزی نیست که آخر پروژه اضافه شود. این اصول در همه سفارش‌ها رعایت می‌شود.</p></div>
+  <div class="sgrid">
+    <div><h3>رمزنگاری استاندارد</h3><p>HTTPS اجباری، هش کردن رمزها با الگوریتم‌های مدرن و رمزنگاری داده‌های حساس.</p></div>
+    <div><h3>محافظت در برابر حملات رایج</h3><p>مقابله با SQL Injection، XSS، CSRF و حدس رمز بر اساس فهرست OWASP.</p></div>
+    <div><h3>کنترل دسترسی</h3><p>نقش‌های کاربری مجزا، نشست‌های امن و ورود دومرحله‌ای برای بخش مدیریت.</p></div>
+    <div><h3>محرمانگی پروژه</h3><p>امضای قرارداد محرمانگی و حفظ کامل اطلاعات کسب‌وکار و مشتریان شما.</p></div>
+    <div><h3>پشتیبان‌گیری و بازیابی</h3><p>طراحی نسخه پشتیبان منظم تا در هر اتفاقی اطلاعات از دست نرود.</p></div>
+    <div><h3>تحویل شفاف</h3><p>سورس، مستندات و دسترسی‌ها به‌طور کامل به شما تحویل داده می‌شود و وابستگی ایجاد نمی‌کنم.</p></div>
+  </div>
+</div></section>
+
+<section id="process"><div class="wrap">
+  <div class="sec-head"><h2>روند همکاری</h2><p>مراحل روشن، زمان‌بندی مشخص و گزارش پیشرفت در طول پروژه.</p></div>
+  <ol class="steps">
+    <li><h3>مشاوره رایگان</h3><p>نیاز، بودجه و زمان شما را بررسی می‌کنیم و بهترین مسیر را پیشنهاد می‌دهم.</p></li>
+    <li><h3>قرارداد و پیش‌پرداخت</h3><p>محدوده کار، قیمت و زمان تحویل مکتوب می‌شود و قرارداد محرمانگی امضا می‌گردد.</p></li>
+    <li><h3>توسعه و تست</h3><p>نسخه‌های آزمایشی را مرحله‌به‌مرحله می‌بینید و بازخورد می‌دهید.</p></li>
+    <li><h3>تحویل و پشتیبانی</h3><p>راه‌اندازی، آموزش و دوره پشتیبانی رایگان پس از تحویل نهایی.</p></li>
+  </ol>
+</div></section>
+
+<section id="faq" class="faq"><div class="wrap narrow">
+  <div class="sec-head"><h2>سؤالات پرتکرار</h2></div>
+  <details><summary>هزینه پروژه چطور تعیین می‌شود؟</summary><p>بعد از مشاوره اولیه و مشخص شدن امکانات، قیمت ثابت و مکتوب اعلام می‌شود. هزینه پنهان یا تغییر قیمت بدون توافق وجود ندارد.</p></details>
+  <details><summary>سورس کد را تحویل می‌دهید؟</summary><p>بله. پس از تسویه، سورس کامل و مستندات به شما تحویل می‌شود و مالکیت پروژه با شماست.</p></details>
+  <details><summary>بعد از تحویل پشتیبانی دارید؟</summary><p>یک دوره پشتیبانی رایگان برای رفع خطا در نظر گرفته شده و در صورت نیاز می‌توانید قرارداد پشتیبانی ماهانه ببندید.</p></details>
+  <details><summary>می‌توانید سایت یا برنامه فعلی‌ام را امن‌سازی کنید؟</summary><p>بله. پروژه موجود بررسی می‌شود، نقاط ضعف در گزارشی روشن ارائه و بعد از تأیید شما رفع می‌گردد.</p></details>
+</div></section>
+
+<section id="contact" class="contactsec"><div class="wrap contact">
+  <div>
+    <div class="sec-head"><h2>پروژه‌تان را برایم بنویسید</h2><p>معمولاً در کمتر از چند ساعت پاسخ می‌دهم. مشاوره اولیه رایگان است.</p></div>
+    <form id="f" novalidate>
+      <label>نام شما<input name="n" autocomplete="name" required maxlength="80"></label>
+      <label>ایمیل یا شماره تماس<input name="c" autocomplete="email" required maxlength="120" dir="ltr"></label>
+      <label>نوع پروژه
+        <select name="t"><option>سایت یا قالب اختصاصی</option><option>فروشگاه اینترنتی</option><option>اپ موبایل</option><option>نرم‌افزار ویندوز</option><option>امنیت و تست نفوذ</option></select>
+      </label>
+      <label>توضیح کوتاه<textarea name="d" maxlength="1000"></textarea></label>
+      <label class="hp" aria-hidden="true">وب‌سایت<input name="website" tabindex="-1" autocomplete="off"></label>
+      <button class="btn btn-main" type="submit">ارسال درخواست</button>
+      <div id="msg" role="status"></div>
+      <p class="note"><svg><use href="#shield"/></svg>اطلاعات شما رمزنگاری‌شده ارسال می‌شود و فقط برای پاسخ به همین درخواست، در یک مخزن خصوصی نگهداری می‌شود.</p>
+    </form>
+  </div>
+  <div class="chan">
+    <a href="https://t.me/your_id"><b>تلگرام</b><span>@your_id</span></a>
+    <a href="mailto:you@example.com"><b>ایمیل</b><span>you@example.com</span></a>
+    <a href="tel:+989000000000"><b>تماس تلفنی</b><span>+98 900 000 0000</span></a>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap"><span>© ۱۴۰۵ سپرکد؛ همه حقوق محفوظ است.</span><span>ساخته‌شده با دقت و امنیت</span></div></footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
